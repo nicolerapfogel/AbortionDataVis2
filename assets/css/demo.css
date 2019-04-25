@@ -83,8 +83,8 @@ section#start {
 }
 h1 {
     font-style: normal;
-    /*font-size: 125px;*/
-    color: rgb(0);
+    font-size: 125px;
+    color: #fff;
     font-family: 'Roboto Condensed', sans-serif;
 }
 h1 span {
