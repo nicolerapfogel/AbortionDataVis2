@@ -1,0 +1,11 @@
+name,Total_States,x,y,diameter,r,g,b,e
+"State funding for abortion restricted (excluding life endangerment, rape, incest)",33,132,140,198,116,166,255,This is a test explanation.
+Insurance restriction,28,322,250,168,106,185,232,This is a test explanation.
+Mandated counseling intended to discourage abortion,28,100,650,168,129,241,255,This is a test explanation.
+"Waiting periods (At least 18 hours; in person, telemedicine, or unspecified)",27,270,500,162,106,232,212,This is a test explanation.
+"Two Trips Required (counseling must be in person, with waiting period)",12,432,540,72,116,255,193,This is a test explanation.
+1+ facility requirement TRAP law(s) in effect,19,650,80,114,106,185,232,This is a test explanation.
+1+ clinican requirement TRAP law(s) in effect,14,540,300,84,116,255,193,This is a test explanation.
+Parental consent for minors,37,637,666,222,116,166,255,This is a test explanation.
+Mandated ultrasound,13,700,400,78,129,241,255,This is a test explanation.
+Telemedicine medication abortion  prohibited,20,430,380,120,106,185,232,This is a test explanation.

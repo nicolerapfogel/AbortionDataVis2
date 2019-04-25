@@ -1,0 +1,114 @@
+{
+        "bubbles": [
+            {
+                "name": "State funding for abortion restricted",
+                "Total_States": "33",
+                "x": "132",
+                "y": "140",
+                "diameter": "198",
+                "r": "116",
+                "g": "166",
+                "b": "255",
+                "e": "Public funding is not available for abortion, except in the cases, of rape, incest, life endangerment, or sometimes long-lasting damage to the woman's health."
+            },
+            {
+                "name": "Insurance restriction",
+                "Total_States": "28",
+                "x": "322",
+                "y": "250",
+                "diameter": "168",
+                "r": "106",
+                "g": "185",
+                "b": "232",
+                "e": "Any form of insurance (private insurance, health plans for public employees, or health plans offered in the state's health exchange under the ACA) can be used to cover abortion, unless an additional rider is purchased or in the case of rape, incest, life endangerment, or compromised health."
+            },
+            {
+                "name": "Mandated counseling intended to discourage abortion",
+                "Total_States": "28",
+                "x": "100",
+                "y": "650",
+                "diameter": "168",
+                "r": "129",
+                "g": "241",
+                "b": "255",
+                "e": "Anyone seeking an abortion is required to undergo state-directed counseling designed to discourage her from having an abortion. States dictate whether this counseling can be in person or virtual. This counseling is often bias and sometimes factually incorrect."
+            },
+            {
+                "name": "Waiting periods",
+                "Total_States": "27",
+                "x": "270",
+                "y": "500",
+                "diameter": "162",
+                "r": "106",
+                "g": "232",
+                "b": "212",
+                "e": "A person seeking an abortion must wait 18 - 72 hours between mandated counseling and receiving the procedure."
+            },
+            {
+                "name": "Two Trips Required",
+                "Total_States": "12",
+                "x": "432",
+                "y": "540",
+                "diameter": "72",
+                "r": "116",
+                "g": "255",
+                "b": "193",
+                "e": "If counseling is mandated to be in person and there is a waiting period to access abortion care, a person seeking an abortion must make two trips to to the clinic. The nearest abortion clinic could be hundreds of miles away, making access even more challenging."
+            },
+            {
+                "name": "1+ facility requirement TRAP law(s) in effect",
+                "Total_States": "20",
+                "x": "650",
+                "y": "80",
+                "diameter": "120",
+                "r": "106",
+                "g": "185",
+                "b": "232",
+                "e": "TRAP (Targeted Regulation of Abortion Providers) laws are medically unnecessry regulations that make it harder for abortion providers to serve patients. These TRAP laws unnecessarily regulate the facilities that provide abortions. Some examples are room size specifications and distance to hospitals."
+            },
+            {
+                "name": "1+ clinican requirement TRAP law(s) in effect",
+                "Total_States": "13",
+                "x": "540",
+                "y": "300",
+                "diameter": "78",
+                "r": "116",
+                "g": "255",
+                "b": "193",
+                "e": "TRAP (Targeted Regulation of Abortion Providers) laws are medically unnecessry regulations that make it harder for abortion providers to serve patients. These TRAP laws unnecessarily regulate the clinicians who provide abortions. Some examples are hospital privileges and additional OB/GYN certifications."
+            },
+            {
+                "name": "Parental consent for minors",
+                "Total_States": "37",
+                "x": "637",
+                "y": "616",
+                "diameter": "222",
+                "r": "116",
+                "g": "166",
+                "b": "255",
+                "e": "Parent(s) of a minor must consent to an abortion."
+            },
+            {
+                "name": "Mandated ultrasound",
+                "Total_States": "13",
+                "x": "700",
+                "y": "400",
+                "diameter": "78",
+                "r": "129",
+                "g": "241",
+                "b": "255",
+                "e": "A person seeking an abortion must undergo an ultrasound before obtaining an abortion. Sometimes the physician must offer the patient to view the image."
+            },
+            {
+                "name": "Telemedicine medication abortion  prohibited",
+                "Total_States": "20",
+                "x": "430",
+                "y": "380",
+                "diameter": "120",
+                "r": "106",
+                "g": "185",
+                "b": "232",
+                "e": "A physician cannot administer medication abortion using telemedicine, even though it complies with FDA regulations."
+            }
+        ]
+    }

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=500" />
+	<meta name="keywords" content="ScrollMagic, example, scrolling, attaching, scrollbar, anchor, link, in-page, navigation, hash" />
+	<meta name="author"	content="Jan Paepke (www.janpaepke.de)" />
+	<title>My Art</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./assets/css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+	<link rel="stylesheet" href="./assets/css/examples.css" type="text/css">
+	<link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+	<script type="text/javascript" src="./assets/js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/js/lib/highlight.pack.js"></script>
+	<script type="text/javascript" src="./assets/js/lib/modernizr.custom.min.js"></script>
+	<script type="text/javascript" src="./assets/js/examples.js"></script>
+	
+	<script type="text/javascript" src="./libraries/ScrollMagic.js"></script>
+	<script type="text/javascript" src="./libraries/plugins/debug.addIndicators.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
+	<script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.js"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+	<ul></ul>
+	<div id="content-wrapper">
+		<div id="example-wrapper">
+			<div class="scrollContent">
+				<section class="demo" id="section-wipes">
+					<style type="text/css">
+						.panel {
+							height: 100%;
+							width: 100%;
+						}
+						.panel.green {
+							margin-bottom: 400px
+						}
+					</style>
+					<section class="panel blue">
+							<b>Roe v. Wade was passed in 1973, legalizing abortion in the US.</b>
+					</section>
+					<section class="panel turqoise">
+							<b>As the Supreme Court becomes more conservative,</b>
+							<br>
+							<br>
+							<b>there have been concerns about the</b>
+							<br>
+							<br>
+							<b>future of abortion access if Roe v. Wade were overturned.</b>
+					</section>
+					<section class="panel green">
+							<b>But, very little attention has been paid to</b>
+							<br>
+							<br>
+							<b>how challenging it can be to access an abortion today.</b>
+					</section>
+					<section class="panel lightblue">
+							<b>State lawmakers have enacted many policies that seek</b>
+							<br>
+							<br>
+							<b>to restrict access to aborton in numerous ways...</b>
+					</section>
+					<section class="panel white">
+						<div id="mysketch"></div>
+					</section>
+					<section class="panel white">
+						<a href="https://nicolerapfogel.github.io/AbortionPolicyMap/"><img src="images/map.png" alt="" width="992px" height="552px"></a>
+					</section>
+					<script>
+						$(function () { // wait for document ready
+							// init
+							var controller = new ScrollMagic.Controller({
+								globalSceneOptions: {
+									triggerHook: 'onLeave'
+								}
+							});
+
+							// get all slides
+							var slides = document.querySelectorAll("section.panel");
+
+							// create scene for every slide
+							for (var i=0; i<slides.length; i++) {
+								new ScrollMagic.Scene({
+										triggerElement: slides[i]
+									})
+									.setPin(slides[i])
+									.addIndicators() // add indicators (requires plugin)
+									.addTo(controller);
+							}
+						});
+					</script>
+				</section>
+			</div>
+		</div>
+	</div>
+	<script src="sketch.js"></script>
+	<script src="storyboard.js"></script>
+</body>
+</html>
